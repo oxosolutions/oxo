@@ -1,36 +1,36 @@
 <resources>
-    <string name="app_name">SMAART &#8482;</string>
-    <string name="base_url">http://174.129.11.69/smaartsurvey/api/</string>
-    <string name="retry">please retry</string>
-    <string name="pleasewait">Please wait ...</string>
-    <string name="usernamehint">Non itilizatè</string>
-    <string name="password">Modpas</string>
-    <string name="login">Konektè</string>
-    <string name="notactiviated">Not Activated</string>
-    <string name="activr">Active</string>
-    <string name="invaliduser">Invalid Username</string>
-    <string name="invalidpassword">Invalid Password</string>
-    <string name="invalid_userpass">Invalid Username or password</string>
-    <string name="success">Success</string>
-    <string name="finish">Finish</string>
-    <string name="press_again">press again</string>
-    <string name="pause">Pòz</string>
-    <string name="stop">Kanpe ankèt la</string>
-    <string name="sign_out">Dekonekte</string>
-    <string name="survey_one" >kay la</string>
-    <string name="survey_two" >moun</string>
-    <string name="new_hh">Nouvo kay la</string>
-    <string name="nouvomoun">Nouvo moun</string>
+    <string translatable="false" name="app_name">SMAART &#8482;</string>
+    <string translatable="false" name="base_url">http://174.129.11.69/smaartsurvey/api/</string>
+    <string translatable="false" name="retry">please retry</string>
+    <string translatable="false" name="pleasewait">Please wait ...</string>
+    <string translatable="false" name="usernamehint">Non itilizatè</string>
+    <string translatable="false" name="password">Modpas</string>
+    <string translatable="false" name="login">Konektè</string>
+    <string translatable="false" name="notactiviated">Not Activated</string>
+    <string translatable="false" name="activr">Active</string>
+    <string translatable="false" name="invaliduser">Invalid Username</string>
+    <string translatable="false" name="invalidpassword">Invalid Password</string>
+    <string translatable="false" name="invalid_userpass">Invalid Username or password</string>
+    <string translatable="false" name="success">Success</string>
+    <string translatable="false" name="finish">Finish</string>
+    <string translatable="false" name="press_again">press again</string>
+    <string translatable="false" name="pause">Pòz</string>
+    <string translatable="false" name="stop">Kanpe ankèt la</string>
+    <string translatable="false" name="sign_out">Dekonekte</string>
+    <string translatable="false" name="survey_one" >kay la</string>
+    <string translatable="false" name="survey_two" >moun</string>
+    <string translatable="false" name="new_hh">Nouvo kay la</string>
+    <string translatable="false" name="nouvomoun">Nouvo moun</string>
 
-    <string name="alreadystarted">Lis kay yo ou deja \n komansè men \n poko fini avek yo</string>
-    <string name="kontinye">Kontinye</string>
-    <string name="prev">Retounen</string>
-    <string name="yes">Wi</string>
-    <string name="no">non</string>
-    <string name="stop_survey">Kanpe ankèt la</string>
-    <string name="are_you_sure">Eske ou si ouvle kanpe ankèt la?</string>
-    <string name="alreadystartedone">Lis kay yo ou deja komansè men poko fini avek yo</string>
-    <string name="alreadystartedtwo">Lis moun  yo ou deja komansè men poko fini avek yo</string>
+    <string translatable="false" name="alreadystarted">Lis kay yo ou deja \n komansè men \n poko fini avek yo</string>
+    <string translatable="false" name="kontinye">Kontinye</string>
+    <string translatable="false" name="prev">Retounen</string>
+    <string translatable="false" name="yes">Wi</string>
+    <string translatable="false" name="no">non</string>
+    <string translatable="false" name="stop_survey">Kanpe ankèt la</string>
+    <string translatable="false" name="are_you_sure">Eske ou si ouvle kanpe ankèt la?</string>
+    <string translatable="false" name="alreadystartedone">Lis kay yo ou deja komansè men poko fini avek yo</string>
+    <string translatable="false" name="alreadystartedtwo">Lis moun  yo ou deja komansè men poko fini avek yo</string>
 
 
 </resources>
