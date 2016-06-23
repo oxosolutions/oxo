@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.oxosolutions.jjcluster"
+        applicationId "com.oxo.haiti"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
