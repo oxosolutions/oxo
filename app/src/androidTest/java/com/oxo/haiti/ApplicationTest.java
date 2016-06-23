@@ -1,4 +1,4 @@
-package com.oxosolutions.jjcluster;
+package com.oxo.haiti;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
