@@ -1,8 +1,14 @@
-*.iml
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
+# Non-project-specific build files:
+build.xml
+local.properties
+/gradlew
+/gradlew.bat
+/gradle
+# Ant builds
+ant-build
+ant-gen
+# Eclipse builds
+gen
+out
+# Gradle builds
 /build
-/captures

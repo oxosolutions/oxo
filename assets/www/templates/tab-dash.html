@@ -1,0 +1,25 @@
+
+<div ng-include src="'templates/header.html'"></div>
+<ion-view view-title="Survey" ng-style="{'margin-top':'10%'}">
+  <ion-content class="padding">
+    <div class="question-text">
+      <h5 ng-bind-html="question"></h5>
+    </div>
+    <div class="question-desc" ng-bind-html="description" style="font-style: italic;">
+        
+    </div>
+    <dynamic-element message='htmlString' ng-bind-html="ans"></dynamic-element>
+    <div class="buttons" style="text-align:center; margin-top:10%;padding-bottom:17%;">
+      
+      <button class="button button-positive aione-button button-prev" ion-ripple ng-click="GoBack()">
+        &nbsp; {{prev}} &nbsp;
+      </button>
+      <button class="button button-assertive aione-button button-stop" ion-ripple  ng-click="GoDashboard()">
+       &nbsp; {{stop}} &nbsp;
+      </button>
+      <button class="button button-balanced aione-button button-next" ion-ripple ng-click="next({{qid}})">
+       &nbsp; {{nxt}} &nbsp;
+      </button>
+    </div>
+  </ion-content>
+</ion-view>

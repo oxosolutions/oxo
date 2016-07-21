@@ -1,0 +1,203 @@
+/* Empty. Add your own CSS if you like */
+.list{
+
+	width: 104% !important;
+	margin-left: -2%;
+	margin-top: -3%;
+}
+
+.border{
+
+	border-top: none;
+	width: 100%;
+	margin-bottom: 2%;
+	border-right: none;
+	border-left: none;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+  background-color: #333;
+
+  border-radius: 100%;  
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% { -webkit-transform: scale(0) }
+  100% {
+    -webkit-transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+
+
+
+/* SGS CSS*/
+
+
+.question-text {
+    font-size: 30px;
+  line-height:36px;
+    border-bottom: 1px solid #e8e8e8;
+    text-align: center;
+}
+.question-desc{
+    font-size: 24px;
+  line-height:30px;
+    text-align: center;
+}
+.question-text h5 {
+    font-size: 24px;
+  line-height:30px;
+  text-align: center;
+}
+label {
+    display: block;
+    font-size: 18px;
+    line-height: 32px;
+    border-bottom: 1px dotted #f2f2f2;
+}
+
+.border-none{ 
+  border:none;
+}
+
+.aione-button {
+    color: #FFFFFF;
+    background-color: #ed6f1d;
+    text-decoration: none;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-radius:0;
+  
+}
+.button-next, 
+.button-prev,
+.button-login,
+.button-activate{
+    margin: 0 10px;
+    color: #FFFFFF;
+    background-color: #168dc5;
+}
+.button-login, .button-activate{
+    margin: 0 auto;
+    display: block;
+}
+
+.button-next:hover, 
+.button-prev:hover,
+.button-login:hover,
+.button-activate:hover,
+.button-next:focus, 
+.button-prev:focus,
+.button-login:focus,
+.button-activate:focus{
+    color: #FFFFFF;
+    background-color: #1570a6;
+}
+
+.button-stop{
+    color: #FFFFFF;
+    background-color: #ed6f1d;
+}
+.button-stop:hover,
+.button-stop:focus{
+    color: #FFFFFF;
+    background-color: #c35913;
+}
+
+
+input[type="text"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  font-size: 18px;
+    line-height: 46px;
+    min-height: 46px;
+    display: block;
+    font-weight: normal;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    color: #747474;
+}
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+textarea:focus,
+select:focus
+{
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border: 1px solid #999999;
+}
+
+input[type="submit"],
+input[type="button"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    padding: 10 20px;
+    background: #43D1AF;
+    border-bottom: 1px solid #30C29E;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;    
+    color: #fff;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover{
+    background: #2EBC99;
+}
+
+.aione-table {
+    width: 100%;
+} 
+
+.aione-table th, .aione-table td {
+    border: 1px solid #e8e8e8;
+    padding: 5px;
+    margin: 20px 0 0 0;
+}
+
+

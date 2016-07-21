@@ -1,0 +1,15 @@
+<ion-view view-title="{{user_login}}">
+  <ion-content class="padding">
+    <img src="img/icon.png" ng-style="{'width':'60%','max-width':'300px','display':'block','text-align':'center','margin-left':'auto','margin-right':'auto','margin-bottom':'6%'}" />
+    <div class="list">
+      <label class="item item-input border-none">
+        <input type="text" placeholder="{{t_username}}" ng-model="username">
+      </label>
+      <label class="item item-input border-none">
+        <input type="password" placeholder="{{t_password}}" ng-model="password" press-enter="login(username, password)">
+      </label>
+      <button class="button button-block button-login aione-button" ion-ripple ng-click="login(username, password)">{{t_login}}</button>
+    </div>
+    <button class="button button-block button-activate aione-button animate-if" ion-ripple ng-click="clearData()" >{{t_activate}}</button>
+  </ion-content>
+</ion-view>

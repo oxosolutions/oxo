@@ -1,0 +1,10 @@
+<div ng-include src="'templates/header.html'"></div>
+<ion-view view-title="{{dashboard}}" ng-style="{'margin-top':'50%'}">
+  <ion-content class="padding">
+    <div class="list">
+      <button class="button button-block button-positive" ion-ripple ng-click="goDash(1)">{{start_survey}}</button>
+      <button class="button button-block button-positive" ion-ripple ng-click="goSurveyList()">{{survey_list}}</button>
+      <button class="button button-block button-positive" ion-ripple ng-click="goDash(2)">Ankèt pou yon grenn moun</button>
+    </div>
+  </ion-content>
+</ion-view>

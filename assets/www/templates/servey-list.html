@@ -1,0 +1,15 @@
+<div ng-include src="'templates/header.html'"></div>
+<ion-view view-title="{{dashboard}}" ng-style="{'margin-top':'15%'}">
+  <ion-content class="padding">
+    <ion-list can-swipe="listCanSwipe" style="width:100%;">
+	  <ion-item ng-repeat="(key, item) in items">
+	    Survey {{key}}
+	    <ion-option-button class="button-positive"
+                       ng-click="StartSurvey(key)">
+	      Start Survey
+	    </ion-option-button>
+	  </ion-item>
+	</ion-list>
+	<a href="javascript:;" ng-click="goDash()">Go Back</a>
+  </ion-content>
+</ion-view>
