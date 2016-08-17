@@ -1,0 +1,13 @@
+﻿Revert "Update ApplicationTest.java"
+
+This reverts commit 1a080858dcd4bcf9ce6645e48991fe2123bb9607.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   app/src/androidTest/java/com/oxo/haiti/ApplicationTest.java
+#
+
